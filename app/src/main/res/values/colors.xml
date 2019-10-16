@@ -3,4 +3,13 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="ButtonColor_green">#399439</color>
+    <color name="pornhub_orange">#ffa500</color>
+    <color name="gray_blue">#2B2B3D</color>
+    <color name="White">#FFFFFF</color>
+    <color name="blue">#000099</color>
+    <color name="RED">#CC0000</color>
+    <color name="black">#000000</color>
+
+
 </resources>
