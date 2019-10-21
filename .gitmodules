@@ -1,0 +1,3 @@
+[submodule "Documentation"]
+	path = documentation
+	url = https://github.com/verde4321/CardGame.wiki.git
