@@ -5,13 +5,13 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Background"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:ignore="MissingDefaultResource">
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="200"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_style"
         android:text="Button"
@@ -25,11 +25,12 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="200"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_style"
         android:text="Button"
         android:textColor="@color/White"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +39,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="200"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_style"
         android:text="Button"
@@ -51,7 +52,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="200"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_style"
         android:text="Button"
@@ -63,7 +64,7 @@
         app:layout_constraintVertical_bias="0.611" />
 
     <ImageButton
-        android:id="@+id/Button01"
+        android:id="@+id/menuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/ic_settings_black_24dp"
