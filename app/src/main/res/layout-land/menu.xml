@@ -21,7 +21,7 @@
             android:textAllCaps="false"
             android:textSize="20dp"
             android:paddingLeft="15dp"
-            android:text="Nutzungsbedingung" />
+            android:text="@string/terms_of_use" />
 
         <Button
             android:gravity="left|center_vertical"
@@ -33,20 +33,53 @@
             android:textSize="20dp"
             android:textAllCaps="false"
             android:paddingLeft="15dp"
-            android:text="Datenschutz" />
+            android:text="@string/Privacy_policy" />
+
 
         <Button
-            android:gravity="left|center_vertical"
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/black"
-            android:textColor="@color/White"
-            android:textAllCaps="false"
-            android:textSize="20dp"
-            android:paddingLeft="15dp"
-            android:text="Abmelden" />
-
+                android:gravity="left|center_vertical"
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/White"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:paddingLeft="15dp"
+                android:text="@string/edit_account" />
+        <Button
+                android:gravity="left|center_vertical"
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/White"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:paddingLeft="15dp"
+                android:text="@string/Color_Scheme" />
+        <Button
+                android:gravity="left|center_vertical"
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/White"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:paddingLeft="15dp"
+                android:text="@string/contact" />
+        <Button
+                android:gravity="left|center_vertical"
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/White"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:paddingLeft="15dp"
+                android:text="@string/logout" />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
@@ -66,7 +99,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sebo schreib da mal was rein pls\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+                android:text="Card game Team:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
                 android:background="@color/black"
                 android:textAllCaps="false"
                 android:textColor="@color/White"

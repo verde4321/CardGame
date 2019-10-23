@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val imageButton = findViewById<ImageButton>(R.id.menuButton)
-        imageButton?.setOnClickListener { Toast.makeText(this@MainActivity, "fuck this schit i am out", Toast.LENGTH_SHORT).show()
+        imageButton?.setOnClickListener {
             startMenuActivity()
         }
 
