@@ -55,7 +55,7 @@ Link to privacy policy of third party service providers used by the app"
                     android:id="@+id/link"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Google Play Services\n"
+                    android:text="@string/google_play_services_n"
                     />
             <TextView
                     style="@style/TextSubHeader"

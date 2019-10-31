@@ -39,8 +39,15 @@ class MenuBehaviar {
     fun clickmenu_settings() {
         // Type text and then press the button.
 
+        onView(withId(R.id.menuButton)).perform(click())
+
+    }
+    @Test
+    fun clickmenuSettingsPrivacyPolicy() {
+        // Type text and then press the button.
 
         onView(withId(R.id.menuButton)).perform(click())
+        onView(withId(R.id.privacy)).perform(click())
 
     }
 
