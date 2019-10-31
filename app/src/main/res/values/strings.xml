@@ -9,4 +9,6 @@
     <string name="create_new_game">Create New Game</string>
     <string name="singleplayer">Singleplayer</string>
     <string name="mutliplayer">Mutliplayer</string>
+    <string name="pryvacy_policy">Pryvacy Policy</string>
+    <string name="google_play_services_n">Google Play Services</string>
 </resources>
