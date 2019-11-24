@@ -2,13 +2,11 @@ package com.example.cardgame
 
 
 
-import android.widget.ImageButton
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
-import android.widget.EditText
+import android.widget.Button
+import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 
 const val EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE"
 class MainActivity : AppCompatActivity() {
@@ -17,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_menu)
 
+        val singlePlayer = findViewById<Button>(R.id.button4)
+        singlePlayer?.setOnClickListener {
+            startTestGui()
+        }
 
         val imageButton = findViewById<ImageButton>(R.id.menuButton)
         imageButton?.setOnClickListener {
@@ -24,6 +26,13 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+    }
+
+    private fun startTestGui() {
+        val intent = Intent(this, TestGUI::class.java)
+        intent.putExtra("key", "gg")
+
+        this.startActivity(intent)
     }
 
     fun startMenuActivity() {

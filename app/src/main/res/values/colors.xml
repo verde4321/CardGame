@@ -8,8 +8,9 @@
     <color name="gray_blue">#2B2B3D</color>
     <color name="White">#FFFFFF</color>
     <color name="blue">#000099</color>
-    <color name="RED">#CC0000</color>
+    <color name="rot">#CC0000</color>
     <color name="black">#000000</color>
+    <color name="grey">#DCDCDC</color>
 
 
 </resources>

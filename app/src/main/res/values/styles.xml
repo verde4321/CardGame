@@ -59,4 +59,9 @@
         <item name="android:textStyle">bold</item>
 
     </style>
+
+    <style name="CustomAppTheme" parent="Theme.AppCompat">
+        <item name="android:textColorPrimaryDisableOnly">@color/White</item>
+        <item name="colorAccent">#e91e63</item>
+    </style>
 </resources>
