@@ -1,4 +1,4 @@
-package com.example.cardgame
+package com.dhbwka.se.tinf18b2.cardgame
 
 
 import androidx.test.espresso.Espresso.onView
@@ -21,7 +21,7 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class MenuBehaviar {
+class UITestMainMenu {
 
     private lateinit var stringToBetyped: String
 

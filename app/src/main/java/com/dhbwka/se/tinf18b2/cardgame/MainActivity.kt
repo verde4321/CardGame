@@ -1,6 +1,4 @@
-package com.example.cardgame
-
-
+package com.dhbwka.se.tinf18b2.cardgame
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +6,8 @@ import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 
-const val EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE"
+//const val EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE"
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,11 +34,11 @@ class MainActivity : AppCompatActivity() {
         this.startActivity(intent)
     }
 
-    fun startMenuActivity() {
+    private fun startMenuActivity() {
 
 
         val intent = Intent(this, MenuSettings::class.java)
-            intent.putExtra("key", "gg")
+        intent.putExtra("key", "gg")
 
         this.startActivity(intent)
 
@@ -47,4 +46,3 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-

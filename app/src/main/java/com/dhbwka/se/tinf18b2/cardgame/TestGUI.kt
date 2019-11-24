@@ -1,4 +1,4 @@
-package com.example.cardgame
+package com.dhbwka.se.tinf18b2.cardgame
 
 import android.os.Build
 import android.os.Bundle
@@ -22,16 +22,16 @@ class TestGUI : AppCompatActivity() {
         // Initialize a new ImageView widget
        // val images.get(0) = ImageView(applicationContext)
         var images = ArrayList<ImageView>()
-        var handCarts = ArrayList<skatCartd>()
+        var handCarts = ArrayList<SkatDeck>()
         // Create layout parameters for ImageView
         val lp = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT)
 
 
-        fun crateHandcards (numberOfHandCards:Int,handCards:ArrayList<skatCartd>){
+        fun crateHandcards (numberOfHandCards:Int, handCards:ArrayList<SkatDeck>){
             var i=0
             while (numberOfHandCards>i){
                 images.add(ImageView(applicationContext))
-                images.get(i).setImageDrawable(getDrawable(handCards.get(i).path))
+                images[i].setImageDrawable(getDrawable(handCards[i].path))
                 i+1
             }
         }
