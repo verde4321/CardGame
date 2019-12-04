@@ -1,4 +1,4 @@
-package com.dhbwka.se.tinf18b2.cardgame
+package com.tinf18b2.cardgame
 
 import org.junit.Test
 

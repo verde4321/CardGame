@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.dhbwka.se.tinf18b2.cardgame">
+        package="com.tinf18b2.cardgame">
 
     <application
             android:allowBackup="true"
@@ -10,14 +10,14 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name="com.dhbwka.se.tinf18b2.cardgame.Privacy_Policy"
-                android:parentActivityName="com.dhbwka.se.tinf18b2.cardgame.MenuSettings"
+                android:name="com.tinf18b2.cardgame.Privacy_Policy"
+                android:parentActivityName="com.tinf18b2.cardgame.MenuSettings"
                 android:screenOrientation="landscape">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.dhbwka.se.tinf18b2.cardgame.MenuSettings" />
+                    android:value="com.tinf18b2.cardgame.MenuSettings" />
         </activity>
         <activity
                 android:name=".MainActivity"
@@ -31,7 +31,7 @@
         </activity>
 
         <activity
-                android:name="com.dhbwka.se.tinf18b2.cardgame.MenuSettings"
+                android:name="com.tinf18b2.cardgame.MenuSettings"
                 android:parentActivityName=".MainActivity"
                 android:screenOrientation="landscape">
 
@@ -42,7 +42,7 @@
         </activity>
 
         <activity
-                android:name="com.dhbwka.se.tinf18b2.cardgame.TestGUI"
+                android:name="com.tinf18b2.cardgame.TestGUI"
                 android:parentActivityName=".MainActivity"
                 android:screenOrientation="landscape">
 

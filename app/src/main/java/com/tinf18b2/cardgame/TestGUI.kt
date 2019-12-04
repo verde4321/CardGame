@@ -1,4 +1,4 @@
-package com.dhbwka.se.tinf18b2.cardgame
+package com.tinf18b2.cardgame
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.RelativeLayout
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import com.tinf18b2.cardgame.model.cards.skat.SkatCard
 
 
 class TestGUI : AppCompatActivity() {
@@ -26,13 +27,13 @@ class TestGUI : AppCompatActivity() {
         // Initialize a new ImageView widget
        // val images.get(0) = ImageView(applicationContext)
 
-        var handCarts = ArrayList<SkatDeck>()
+        var handCarts = ArrayList<SkatCard>()
         // Create layout parameters for ImageView
 
-        handCarts.add(skatCartd.ACE_CLUB)
-        handCarts.add(skatCartd.ACE_SPADE)
-        handCarts.add(skatCartd.ACE_HEART)
-        handCarts.add(skatCartd.ACE_DIAMONDS)
+        handCarts.add(SkatCard.CLUBS_ACE)
+        handCarts.add(SkatCard.SPADES_ACE)
+        handCarts.add(SkatCard.HEARTS_ACE)
+        handCarts.add(SkatCard.DIAMONDS_ACE)
 
         targetFrames(2)
         createHandcards(4,handCarts)
@@ -41,7 +42,7 @@ class TestGUI : AppCompatActivity() {
 
     @SuppressLint("ClickableViewAccessibility")
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
-    fun createHandcards (numberOfHandCards:Int, handCarts:ArrayList<skatCartd>){
+    fun createHandcards (numberOfHandCards:Int, handCarts:ArrayList<SkatCard>){
         var rl =  findViewById<RelativeLayout>(R.id.rl)
 
         var targetFrames = ArrayList<ImageView>()
@@ -50,7 +51,7 @@ class TestGUI : AppCompatActivity() {
         for ( i in 0 until numberOfHandCards){
             images.add(ImageView(applicationContext))
             // Set an image for ImageView
-            images.get(i).setImageDrawable(getDrawable(handCarts.get(i).path))
+            images.get(i).setImageDrawable(getDrawable(handCarts.get(i).resourceID))
             // Add layout parameters to ImageView
             images.get(i).setLayoutParams(this.lp)
             // Apply the new height for ImageView programmatically
