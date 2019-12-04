@@ -7,6 +7,7 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.filters.LargeTest
 import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.AndroidJUnit4
+import com.tinf18b2.cardgame.view.activity.MainMenuActivity
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -26,8 +27,8 @@ class UITestMainMenu {
     private lateinit var stringToBetyped: String
 
     @get:Rule
-    var activityRule: ActivityTestRule<MainActivity>
-            = ActivityTestRule(MainActivity::class.java)
+    var activityRule: ActivityTestRule<MainMenuActivity>
+            = ActivityTestRule(MainMenuActivity::class.java)
 
     @Before
     fun initValidString() {
@@ -39,14 +40,14 @@ class UITestMainMenu {
     fun clickmenu_settings() {
         // Type text and then press the button.
 
-        onView(withId(R.id.menuButton)).perform(click())
+        onView(withId(R.id.settings)).perform(click())
 
     }
     @Test
     fun clickmenuSettingsPrivacyPolicy() {
         // Type text and then press the button.
 
-        onView(withId(R.id.menuButton)).perform(click())
+        onView(withId(R.id.settings)).perform(click())
         onView(withId(R.id.privacy)).perform(click())
 
     }

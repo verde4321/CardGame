@@ -10,17 +10,17 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name="com.tinf18b2.cardgame.Privacy_Policy"
-                android:parentActivityName="com.tinf18b2.cardgame.MenuSettings"
+                android:name="com.tinf18b2.cardgame.view.activity.PrivacyPolicyActivity"
+                android:parentActivityName="com.tinf18b2.cardgame.view.activity.SettingsActivity"
                 android:screenOrientation="landscape">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.tinf18b2.cardgame.MenuSettings" />
+                    android:value="com.tinf18b2.cardgame.view.activity.SettingsActivity" />
         </activity>
         <activity
-                android:name=".MainActivity"
+                android:name=".view.activity.MainMenuActivity"
                 android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -31,25 +31,25 @@
         </activity>
 
         <activity
-                android:name="com.tinf18b2.cardgame.MenuSettings"
-                android:parentActivityName=".MainActivity"
+                android:name="com.tinf18b2.cardgame.view.activity.SettingsActivity"
+                android:parentActivityName=".view.activity.MainMenuActivity"
                 android:screenOrientation="landscape">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value=".MainActivity" />
+                    android:value=".view.activity.MainMenuActivity" />
         </activity>
 
         <activity
-                android:name="com.tinf18b2.cardgame.TestGUI"
-                android:parentActivityName=".MainActivity"
+                android:name="com.tinf18b2.cardgame.view.activity.GameActivity"
+                android:parentActivityName=".view.activity.MainMenuActivity"
                 android:screenOrientation="landscape">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value=".MainActivity" />
+                    android:value=".view.activity.MainMenuActivity" />
         </activity>
     </application>
 
