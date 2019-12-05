@@ -1,9 +1,9 @@
 package com.tinf18b2.cardgame.model.cards.skat
 
-import com.tinf18b2.cardgame.R;
+import com.tinf18b2.cardgame.R
+import com.tinf18b2.cardgame.model.cards.ICard
 
-enum class SkatCard
-constructor(override val suite: Suite, override val rank: Rank, override val resourceID: Int) : ISkatCard {
+enum class SkatCard constructor(val suite: Suite, val rank: Rank, override val resourceID: Int) : ICard {
 
     CLUBS_TWO(Suite.CLUB, Rank.TWO, R.drawable.card_skat_clubs_c2),
     CLUBS_THREE(Suite.CLUB, Rank.THREE, R.drawable.card_skat_clubs_c3),
@@ -19,19 +19,19 @@ constructor(override val suite: Suite, override val rank: Rank, override val res
     CLUBS_KING(Suite.CLUB, Rank.KING, R.drawable.card_skat_clubs2_king),
     CLUBS_ACE(Suite.CLUB, Rank.ACE, R.drawable.card_skat_clubs_ace),
 
-    DIAMONDS_TWO(Suite.DIAMONDS, Rank.TWO, R.drawable.card_skat_diamonds_c2),
-    DIAMONDS_THREE(Suite.DIAMONDS, Rank.THREE, R.drawable.card_skat_diamonds_c3),
-    DIAMONDS_FOUR(Suite.DIAMONDS, Rank.FOUR, R.drawable.card_skat_diamonds_c4),
-    DIAMONDS_FIVE(Suite.DIAMONDS, Rank.FIVE, R.drawable.card_skat_diamonds_c5),
-    DIAMONDS_SIX(Suite.DIAMONDS, Rank.SIX, R.drawable.card_skat_diamonds_c6),
-    DIAMONDS_SEVEN(Suite.DIAMONDS, Rank.SEVEN, R.drawable.card_skat_diamonds_c7),
-    DIAMONDS_EIGHT(Suite.DIAMONDS, Rank.EIGHT, R.drawable.card_skat_diamonds_c8),
-    DIAMONDS_NINE(Suite.DIAMONDS, Rank.NINE, R.drawable.card_skat_diamonds_c9),
-    DIAMONDS_TEN(Suite.DIAMONDS, Rank.TEN, R.drawable.card_skat_diamonds_c10),
-    DIAMONDS_JACK(Suite.DIAMONDS, Rank.JACK, R.drawable.card_skat_diamonds2_jack),
-    DIAMONDS_QUEEN(Suite.DIAMONDS, Rank.QUEEN, R.drawable.card_skat_diamonds2_queen),
-    DIAMONDS_KING(Suite.DIAMONDS, Rank.KING, R.drawable.card_skat_diamonds2_king),
-    DIAMONDS_ACE(Suite.DIAMONDS, Rank.ACE, R.drawable.card_skat_diamonds_ace),
+    DIAMONDS_TWO(Suite.DIAMOND, Rank.TWO, R.drawable.card_skat_diamonds_c2),
+    DIAMONDS_THREE(Suite.DIAMOND, Rank.THREE, R.drawable.card_skat_diamonds_c3),
+    DIAMONDS_FOUR(Suite.DIAMOND, Rank.FOUR, R.drawable.card_skat_diamonds_c4),
+    DIAMONDS_FIVE(Suite.DIAMOND, Rank.FIVE, R.drawable.card_skat_diamonds_c5),
+    DIAMONDS_SIX(Suite.DIAMOND, Rank.SIX, R.drawable.card_skat_diamonds_c6),
+    DIAMONDS_SEVEN(Suite.DIAMOND, Rank.SEVEN, R.drawable.card_skat_diamonds_c7),
+    DIAMONDS_EIGHT(Suite.DIAMOND, Rank.EIGHT, R.drawable.card_skat_diamonds_c8),
+    DIAMONDS_NINE(Suite.DIAMOND, Rank.NINE, R.drawable.card_skat_diamonds_c9),
+    DIAMONDS_TEN(Suite.DIAMOND, Rank.TEN, R.drawable.card_skat_diamonds_c10),
+    DIAMONDS_JACK(Suite.DIAMOND, Rank.JACK, R.drawable.card_skat_diamonds2_jack),
+    DIAMONDS_QUEEN(Suite.DIAMOND, Rank.QUEEN, R.drawable.card_skat_diamonds2_queen),
+    DIAMONDS_KING(Suite.DIAMOND, Rank.KING, R.drawable.card_skat_diamonds2_king),
+    DIAMONDS_ACE(Suite.DIAMOND, Rank.ACE, R.drawable.card_skat_diamonds_ace),
 
     HEARTS_TWO(Suite.HEART, Rank.TWO, R.drawable.card_skat_hearts_c2),
     HEARTS_THREE(Suite.HEART, Rank.THREE, R.drawable.card_skat_hearts_c3),
@@ -60,4 +60,6 @@ constructor(override val suite: Suite, override val rank: Rank, override val res
     SPADES_QUEEN(Suite.SPADE, Rank.QUEEN, R.drawable.card_skat_spades2_queen),
     SPADES_KING(Suite.SPADE, Rank.KING, R.drawable.card_skat_spades2_king),
     SPADES_ACE(Suite.SPADE, Rank.ACE, R.drawable.card_skat_spades_ace);
+
+    override val cardName: String = "$rank of $suite"
 }
