@@ -5,6 +5,9 @@ import com.tinf18b2.cardgame.model.cards.ICard
 
 enum class SkatCard constructor(val suite: Suite, val rank: Rank, val resourceID: Int) : ICard {
 
+    //   ((.{1,10})S_(.+))([,;])
+    //$1\(Suite.$2, Rank.$3, 0)$4
+
     CLUBS_TWO(Suite.CLUB, Rank.TWO, R.drawable.card_skat_clubs_c2),
     CLUBS_THREE(Suite.CLUB, Rank.THREE, R.drawable.card_skat_clubs_c3),
     CLUBS_FOUR(Suite.CLUB, Rank.FOUR, R.drawable.card_skat_clubs_c4),
