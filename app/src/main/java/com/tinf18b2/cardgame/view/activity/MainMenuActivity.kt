@@ -6,6 +6,8 @@ import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.tinf18b2.cardgame.R
+import com.tinf18b2.cardgame.controller.TestController
+import com.tinf18b2.cardgame.model.logic.GameModel
 
 class MainMenuActivity : AppCompatActivity() {
 
@@ -25,7 +27,9 @@ class MainMenuActivity : AppCompatActivity() {
     }
 
     private fun startTestGui() {
-        val intent = Intent(this, GameActivity::class.java)
+//        val intent = Intent(this, GameActivity::class.java)
+        GameModel.changeController(TestController())
+        val intent = Intent(this, NewGameActivity::class.java)
         this.startActivity(intent)
     }
 

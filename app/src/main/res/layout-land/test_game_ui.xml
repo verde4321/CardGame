@@ -5,11 +5,9 @@
         android:id="@+id/rl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
+
         tools:context=".view.activity.MainMenuActivity"
         android:background="@drawable/background"
         tools:ignore="MissingDefaultResource">
-
-
-
 </RelativeLayout>
+<!--    android:padding="10dp"-->

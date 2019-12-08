@@ -51,6 +51,16 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".view.activity.MainMenuActivity" />
         </activity>
+        <activity
+                android:name="com.tinf18b2.cardgame.view.activity.NewGameActivity"
+                android:parentActivityName=".view.activity.MainMenuActivity"
+                android:screenOrientation="landscape">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".view.activity.MainMenuActivity" />
+        </activity>
     </application>
 
 </manifest>

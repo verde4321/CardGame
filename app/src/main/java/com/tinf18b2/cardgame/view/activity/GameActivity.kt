@@ -84,7 +84,7 @@ class GameActivity : AppCompatActivity() {
                         }
                     }
                 }
-                p
+                return@setOnTouchListener p
             }
             // images.get(0).setRotation(450F)
 

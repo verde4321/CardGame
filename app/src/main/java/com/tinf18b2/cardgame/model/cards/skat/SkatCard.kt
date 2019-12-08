@@ -3,7 +3,7 @@ package com.tinf18b2.cardgame.model.cards.skat
 import com.tinf18b2.cardgame.R
 import com.tinf18b2.cardgame.model.cards.ICard
 
-enum class SkatCard constructor(val suite: Suite, val rank: Rank, override val resourceID: Int) : ICard {
+enum class SkatCard constructor(val suite: Suite, val rank: Rank, val resourceID: Int) : ICard {
 
     CLUBS_TWO(Suite.CLUB, Rank.TWO, R.drawable.card_skat_clubs_c2),
     CLUBS_THREE(Suite.CLUB, Rank.THREE, R.drawable.card_skat_clubs_c3),
