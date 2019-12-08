@@ -1,4 +1,4 @@
-package com.example.cardgame
+package com.tinf18b2.cardgame
 
 import org.junit.Test
 
