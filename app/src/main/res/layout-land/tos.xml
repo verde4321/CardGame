@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CardGame Terms of Service" />
+
+        <TextView
+            style="@style/TextSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Terms" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By accessing our app, CardGame, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing CardGame. The materials contained in CardGame are protected by applicable copyright and trademark law." />
+
+        <TextView
+            style="@style/TextSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Use License" />
+
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Permission is granted to temporarily download one copy of CardGame per device for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="modify or copy the materials;" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="use the materials for any commercial purpose, or for any public display (commercial or non-commercial);" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="attempt to decompile or reverse engineer any software contained in CardGame;" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="remove any copyright or other proprietary notations from the materials; or" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transfer the materials to another person or &quot;mirror&quot; the materials on any other server." />
+
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This license shall automatically terminate if you violate any of these restrictions and may be terminated by CardGame at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format." />
+
+        <TextView
+            style="@style/TextSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Disclaimer" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The materials within CardGame are provided on an 'as is' basis. CardGame makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights." />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Further, CardGame does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to CardGame." />
+
+        <TextView
+            style="@style/TextSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Limitations" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In no event shall CardGame or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use CardGame, even if CardGame or a CardGame authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you." />
+
+        <TextView
+            style="@style/TextSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Accuracy of materials" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The materials appearing in CardGame could include technical, typographical, or photographic errors. CardGame does not warrant that any of the materials on CardGame are accurate, complete or current. CardGame may make changes to the materials contained in CardGame at any time without notice. However CardGame does not make any commitment to update the materials." />
+
+        <TextView
+            style="@style/TextSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Links" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CardGame has not reviewed all of the sites linked to its app and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by CardGame of the site. Use of any such linked website is at the user's own risk." />
+
+        <TextView
+            style="@style/TextSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Modifications" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CardGame may revise these terms of service for its app at any time without notice. By using CardGame you are agreeing to be bound by the then current version of these terms of service." />
+
+        <TextView
+            style="@style/TextSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Governing Law" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="These terms and conditions are governed by and construed in accordance with the laws of Germany and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location." />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generated by GetTerms.io" />
+    </LinearLayout>
+</ScrollView>

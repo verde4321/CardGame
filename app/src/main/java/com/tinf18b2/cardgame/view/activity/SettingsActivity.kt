@@ -16,10 +16,20 @@ class SettingsActivity : AppCompatActivity() {
         privacyBTN?.setOnClickListener {
             openPrivacyPolicy()
         }
+
+        val tosBtn = findViewById<Button>(R.id.tos)
+        tosBtn?.setOnClickListener {
+            openTos()
+        }
     }
 
     private fun openPrivacyPolicy() {
         val intent = Intent(this, PrivacyPolicyActivity::class.java)
+        this.startActivity(intent)
+    }
+
+    private fun openTos() {
+        val intent = Intent(this, TOSActivity::class.java)
         this.startActivity(intent)
     }
 }

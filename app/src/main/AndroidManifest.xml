@@ -10,14 +10,24 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name="com.tinf18b2.cardgame.view.activity.PrivacyPolicyActivity"
-                android:parentActivityName="com.tinf18b2.cardgame.view.activity.SettingsActivity"
+                android:name=".view.activity.PrivacyPolicyActivity"
+                android:parentActivityName=".view.activity.SettingsActivity"
                 android:screenOrientation="landscape">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.tinf18b2.cardgame.view.activity.SettingsActivity" />
+                    android:value=".view.activity.SettingsActivity" />
+        </activity>
+        <activity
+            android:name=".view.activity.TOSActivity"
+            android:parentActivityName=".view.activity.SettingsActivity"
+            android:screenOrientation="landscape">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.activity.SettingsActivity" />
         </activity>
         <activity
                 android:name=".view.activity.MainMenuActivity"
@@ -31,7 +41,7 @@
         </activity>
 
         <activity
-                android:name="com.tinf18b2.cardgame.view.activity.SettingsActivity"
+                android:name=".view.activity.SettingsActivity"
                 android:parentActivityName=".view.activity.MainMenuActivity"
                 android:screenOrientation="landscape">
 
@@ -42,7 +52,7 @@
         </activity>
 
         <activity
-                android:name="com.tinf18b2.cardgame.view.activity.GameActivity"
+                android:name=".view.activity.GameActivity"
                 android:parentActivityName=".view.activity.MainMenuActivity"
                 android:screenOrientation="landscape">
 
@@ -52,7 +62,7 @@
                     android:value=".view.activity.MainMenuActivity" />
         </activity>
         <activity
-                android:name="com.tinf18b2.cardgame.view.activity.NewGameActivity"
+                android:name=".view.activity.NewGameActivity"
                 android:parentActivityName=".view.activity.MainMenuActivity"
                 android:screenOrientation="landscape">
 
